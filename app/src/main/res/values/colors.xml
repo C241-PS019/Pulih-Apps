@@ -6,4 +6,6 @@
     <color name="putih_tulang">#E3E3E3</color>
     <color name="ungu">#454B94</color>
     <color name="abu">#BDBDBD</color>
+    <color name="indicatorBack">#9CA8FB</color>
+    <color name="grey">#6A6A6A</color>
 </resources>

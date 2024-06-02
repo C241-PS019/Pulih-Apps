@@ -2,4 +2,15 @@
     <string name="app_name">Pulih</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title1">Kesehatan Mental Itu Penting!!</string>
+    <string name="title2">Konsultasikan Dirimu Dengan Konselor Terbaik</string>
+    <string name="title3">Mari Bergabung Bersama Kami</string>
+    <string name="desc1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero,
+        sit amet commodo magna eros quis urna.</string>
+    <string name="desc2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+        Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.</string>
+    <string name="desc3">Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</string>
+    <string name="skip">Skip</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
 </resources>
