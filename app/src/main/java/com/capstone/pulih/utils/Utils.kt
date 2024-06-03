@@ -1,4 +1,4 @@
-package com.pulihproject.pulih.utils
+package com.capstone.pulih.utils
 
 import android.view.View
 

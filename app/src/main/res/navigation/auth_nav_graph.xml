@@ -3,8 +3,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/welcomeFragment"
-    android:id="@+id/auth_nav_graph">
+    app:startDestination="@id/fragmentOnboarding"
+    android:id="@+id/nav_host_auth_fragment">
+    <fragment
+        android:id="@+id/fragmentOnboarding"
+        android:name="com.capstone.pulih.ui.onboarding.walkthrough.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding">
+        <action
+            android:id="@+id/onboarding_to_welcome"
+            app:destination="@id/welcomeFragment"
+            app:popUpToInclusive="false"/>
+        <action
+            android:id="@+id/onboarding_to_auth"
+            app:destination="@id/authActivity"
+            app:popUpToInclusive="false"/>
+    </fragment>
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.capstone.pulih.ui.auth.login.LoginFragment"
@@ -44,9 +58,16 @@
             app:destination="@id/loginFragment"
             app:popUpToInclusive="false"/>
     </fragment>
+
     <activity
         android:id="@+id/mainActivity"
         android:name="com.capstone.pulih.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main"/>
+    <activity
+        android:id="@+id/authActivity"
+        android:name="com.capstone.pulih.ui.auth.authactivity.AuthActivity"
+        tools:layout="@layout/activity_auth"/>
+
+
 </navigation>
