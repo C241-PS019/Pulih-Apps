@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Pulih</string>
+    <string name="coming_soon">Fitur Masih Coming Soon!</string>
+
+    <!--    login-->
+    <string name="default_web_client_id">http://618030412655-5c3hec70bd5um9i77gb8ad7tgpos74r9.apps.googleusercontent.com/</string>
+    <!--    journaling-->
+    <string name="titletab1">Morning Journaling</string>
+    <string name="titletab2">Evening Journaling</string>
+
+    <!--    onboarding-->
+    <string name="title1">Kesehatan Mental Itu Penting!!</string>
+    <string name="title2">Konsultasikan Dirimu Dengan Konselor Terbaik</string>
+    <string name="title3">Mari Bergabung Bersama Kami</string>
+    <string name="desc1">Merawat kesehatan mental adalah langkah penting untuk mencapai hidup yang bahagia dan seimbang. Kami di Pulih hadir untuk membantu Anda menjaga dan meningkatkan kesejahteraan mental Anda.</string>
+    <string name="desc2"> Butuh dukungan atau seseorang untuk mendengarkan? Konsultasikan dirimu dengan konselor terbaik melalui aplikasi kami. Dapatkan bimbingan profesional dan solusi untuk masalah yang Anda hadapi.</string>
+    <string name="desc3">Bergabunglah dengan komunitas yang peduli akan kesehatan mental. Dengan fitur-fitur seperti deteksi stres, journaling, dan sesi konseling, kami siap mendukung Anda setiap saat. Daftar sekarang dan mulailah perjalanan Anda menuju kesejahteraan mental yang lebih baik!</string>
+    <string name="skip">Skip</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="settings">Settings</string>
+
+    <!--    Detection-->
+    <string name="question1">Seberapa sering Anda menjadi bingung karena sesuatu yang terjadi secara tiba-tiba?</string>
+    <string name="question2">Seberapa sering Anda telah merasa tidak mampu untuk mengendalikan hal-hal yang penting dalam kehidupan Anda?</string>
+    <string name="question3">Seberapa sering Anda merasa gugup atau stres?</string>
+    <string name="question4">Seberapa sering Anda merasa yakin akan kemampuan Anda untuk menangani masalah pribadi?</string>
+    <string name="question5">Seberapa sering Anda telah merasa bahwa segala sesuatunya berjalan lancar?</string>
+    <string name="question6">Seberapa sering Anda telah merasa bahwa Anda tidak bisa mengatasi semua hal yangharus Anda lakukan?</string>
+    <string name="question7">Seberapa sering Anda telah mampu mengendalikan hal-hal yang menyakitkan dalam hidup Anda?</string>
+    <string name="question8">Seberapa sering anda merasakan bahwa Anda sangat bahagia dan sukses?</string>
+    <string name="question9">Seberapa sering Anda telah merasakan marah karena sesuatu yang terjadi diluar kendali Anda?</string>
+    <string name="question10">Seberapa sering Anda merasakan bahwa kesulitan menumpuk sebegitu tingginya sehingga Anda tidak bisa mengatasinya? </string>
+
+    <string name="rb_answer1">Tidak Pernah</string>
+    <string name="rb_answer2">Hampir Tidak Pernah</string>
+    <string name="rb_answer3">Kadang-Kadang</string>
+    <string name="rb_answer4">Cukup Sering</string>
+    <string name="rb_answer5">Terlalu Sering</string>
+
+    <string name="no6">6</string>
+    <string name="no7">7</string>
+    <string name="no8">8</string>
+    <string name="no9">9</string>
+    <string name="no10">10</string>
+    <string name="no5">5</string>
+    <string name="no2">2</string>
+    <string name="no4">4</string>
+    <string name="no3">3</string>
+    <string name="no1">1</string>
+
+    <string name="title_detection_stress">Detection Stress</string>
+    <string name="btn_submit">Submit</string>
+    <string name="error_question_required">silahkan mengisi jawaban pertanyaan ini</string>
+    <string name="submit">Submit</string>
+
+<!--    journaling-->
+    <string name="q2_journalingMorning">Ada Yang Mengganjal Dalam Pikiran?</string>
+    <string name="q1_journalingMorning">Mau Melakukan Apa Saja Hari Ini?</string>
+    <string name="q4_journalingMorning">Apa Afirmasi untuk dirimu dipagi ini?</string>
+    <string name="q3_journalingMorning">Apakah Ada Ide-ide Muncul Di pagi ini?</string>
+
+
+    <string name="q1_journalingEvening">Apa saja yang terjadi dan yang kamu lakukan hari ini?</string>
+    <string name="q2_journalingEvening">Apakah ada cerita dari hari ini?</string>
+    <string name="q3_journalingEvening">Apresiasi untuk progres hari ini?</string>
+    <string name="q4_journalingEvening">Apa yang saya pelajari dan ingat hari ini?</string>
+    <string name="q5_journalingEvening">Apa yang bisa saya perbaiki dari hari ini?</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="titleJournal">Berikan Judul Jurnal mu disini</string>
+
+    <!--    Pengajuan-->
+    <string-array name="tempat">
+        <item>Pilih</item>
+        <item>Offline</item>
+        <item>Online</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>diproses</item>
+        <item>disetujui</item>
+        <item>selesai</item>
+        <item>reschedule</item>
+    </string-array>
+
+    <string-array name="konselor">
+        <item>Pilih</item>
+        <item>Muh Kholil Gibran</item>
+        <item>Irfikri Anggara Hasbar</item>
+        <item>Spiderman</item>
+    </string-array>
+</resources>

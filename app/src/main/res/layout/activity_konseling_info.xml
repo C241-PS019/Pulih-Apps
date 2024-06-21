@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.konselingpage.KonselingInfoActivity">
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:background="@color/ungu">
+                <ImageView
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_back"
+                    android:id="@+id/iv_back"
+                    android:layout_marginEnd="16dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:text="Informasi Konseling"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Apa itu konseling?"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Konseling adalah proses pemberian bantuan melalui diskusi tatap muka untuk seseorang yang mengalami masalah tertentu. \n\nMetode ini dilakukan bersama ahli yang disebut konselor dan berfokus untuk memecahkan suatu masalah maupun mempelajari teknik tertentu untuk menangani atau mencari cara untuk menghindari masalah tersebut."
+                android:layout_marginHorizontal="27dp"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Bagaimana konseling dapat menyelesaikan masalah?"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Konseling dapat membantu menyelesaikan masalah dengan beberapa cara:\n\n1. Pemahaman Diri: \nKonseling membantu individu memahami diri mereka sendiri, termasuk emosi, perilaku, dan pola pikir. Dengan pemahaman yang lebih baik, seseorang dapat mengidentifikasi akar masalah dan mencari solusi yang lebih efektif\n\n2. Strategi Penyelesaian Masalah: \nKonselor membantu klien mengembangkan strategi konkret untuk mengatasi masalah. Ini melibatkan merumuskan langkah-langkah praktis dan mengimplementasikannya.\n\n3. Penguatan Diri: \nKonseling memperkuat klien dengan memberikan dukungan emosional dan membangun rasa percaya diri. Ini membantu individu menghadapi masalah dengan lebih baik\n\n4. Perubahan Pola Pikir: \nKonseling membantu mengubah pola pikir negatif atau tidak sehat. Dengan menggantinya dengan pola pikir yang lebih positif, individu dapat mengatasi masalah dengan lebih baik\n\n5. Peningkatan Hubungan: \nKonseling keluarga atau pasangan membantu memperbaiki hubungan dan komunikasi. Ini dapat mengatasi konflik dan memperkuat ikatan emosional"
+                android:layout_marginHorizontal="27dp"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Selain konseling, kegiatan apa yang baik untuk kesehatan mental?"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Journaling adalah kegiatan mencatat pikiran, perasaan, dan pengalaman harian dalam bentuk tulisan. Kamu bisa melakukannya dengan cara tradisional menggunakan buku catatan dan pena, atau melalui aplikasi digital di ponsel atau komputer Anda. \n\nJournaling sangat baik untuk kesehatan mental karena dapat berpengaruh terhadap regulasi emosi yang dimiliki seseorang."
+                android:layout_marginBottom="30dp"
+                android:layout_marginHorizontal="27dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="putih_tulang">#E3E3E3</color>
+    <color name="ungu">#454B94</color>
+    <color name="ungu_gelap">#2E3268</color>
+    <color name="abu">#BDBDBD</color>
+    <color name="indicatorBack">#9CA8FB</color>
+    <color name="abu_gelap">#5A5A5A</color>
+    <color name="grey">#6A6A6A</color>
+</resources>

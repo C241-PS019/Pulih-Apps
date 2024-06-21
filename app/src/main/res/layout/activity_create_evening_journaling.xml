@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/eveningJournaling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ungu"
+        tools:context=".ui.journaling.ui.JournalingFragment">
+
+        <ImageButton
+            android:id="@+id/modenight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/container_btn_mode"
+            android:src="@drawable/ic_night"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/titleEvening"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/titleEvening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:padding="10dp"
+            android:text="Evening Journaling"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/modenight"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@id/titleEvening"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/container_journaling"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <TextView
+                android:id="@+id/tvTitleEvening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ketik Judul Jurnal Mu disini"
+                app:layout_constraintTop_toTopOf="@id/content"
+                app:layout_constraintStart_toStartOf="@id/content"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:background="@color/white"/>
+
+            <EditText
+                android:id="@+id/etTitleJournalEvening"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="13sp"
+                android:padding="13dp"
+                android:background="@drawable/container_edittext"
+                app:layout_constraintEnd_toEndOf="@id/content"
+                app:layout_constraintStart_toStartOf="@id/content"
+                app:layout_constraintTop_toBottomOf="@id/tvTitleEvening"
+                />
+
+            <TextView
+                android:id="@+id/titleTodo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:text="Apa saja yang terjadi dan yang kamu lakukan hari ini?"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etTitleJournalEvening"
+                app:layout_constraintVertical_bias="0" />
+
+            <EditText
+                android:id="@+id/etTodo1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="13dp"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleTodo1"
+                app:layout_constraintVertical_bias="0"
+                android:background="@drawable/container_edittext"/>
+
+            <TextView
+                android:id="@+id/titleTodo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:text="Apakah ada cerita dari hari ini?"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etTodo1"
+                app:layout_constraintVertical_bias="0" />
+
+            <EditText
+                android:id="@+id/etTodo2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="13dp"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleTodo2"
+                app:layout_constraintVertical_bias="0"
+                android:background="@drawable/container_edittext"/>
+
+            <TextView
+                android:id="@+id/titleTodo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:text="Apresiasi untuk progres hari ini?"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etTodo2"
+                app:layout_constraintVertical_bias="0" />
+
+            <EditText
+                android:id="@+id/etTodo3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="13dp"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleTodo3"
+                app:layout_constraintVertical_bias="0"
+                android:background="@drawable/container_edittext"/>
+
+            <TextView
+                android:id="@+id/titleTodo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:text="Apa yang saya pelajari dan ingat hari ini?"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etTodo3"
+                app:layout_constraintVertical_bias="0" />
+
+            <EditText
+                android:id="@+id/etTodo4"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="13dp"
+                android:inputType="text"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleTodo4"
+                app:layout_constraintVertical_bias="0"
+                android:background="@drawable/container_edittext"/>
+
+            <TextView
+                android:id="@+id/titleTodo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:text="Apa yang bisa saya perbaiki dari hari ini?"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etTodo4"
+                app:layout_constraintVertical_bias="0" />
+
+            <EditText
+                android:id="@+id/etTodo5"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="13dp"
+                android:inputType="text"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleTodo5"
+                app:layout_constraintVertical_bias="0"
+                android:background="@drawable/container_edittext"/>
+
+
+            <Button
+                android:id="@+id/btnEveningJournaling"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/button_primary"
+                android:layout_marginHorizontal="20dp"
+                android:text="Submit"
+                android:clickable="true"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@id/content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etTodo5"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+

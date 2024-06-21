@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/fragmentOnboarding">
+    <fragment
+        android:id="@+id/fragmentOnboarding"
+        android:name="com.capstone.pulih.ui.onboarding.walkthrough.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding"/>
+    <fragment
+        android:id="@+id/Konseling"
+        android:name="com.capstone.pulih.ui.main.konseling.KonselingFragment"
+        tools:layout="@layout/fragment_konseling"/>
+    <activity
+        android:id="@+id/welcomeActivity"
+        android:name="com.capstone.pulih.ui.onboarding.welcome.WelcomeActivity"
+        tools:layout="@layout/activity_welcome"
+        android:label="activity_welcome"/>
+    <activity
+        android:id="@+id/inputDataActivity"
+        android:name="com.capstone.pulih.ui.inputdata.InputDataActivity"
+        tools:layout="@layout/activity_input_data"
+        android:label="activity_input_data"/>
+</navigation>

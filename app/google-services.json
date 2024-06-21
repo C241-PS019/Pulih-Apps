@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618030412655",
+    "project_id": "pulih-capstone",
+    "storage_bucket": "pulih-capstone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618030412655:android:5a629097e5ec4646a0ae9a",
+        "android_client_info": {
+          "package_name": "com.capstone.pulih"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtTzh2F5eRgf7YbCcUVYExHGaQABmXnts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

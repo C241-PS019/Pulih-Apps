@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context="ui.mainkonselor.konselorguide.KonselorGuideActivity"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:background="@color/ungu">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_back"
+                    android:id="@+id/iv_back"
+                    android:padding="8dp"
+                    android:layout_marginEnd="16dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:text="About Pulih"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Pulih - Recovery Yourself, Find Your Happiness"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Pulih merupakan aplikasi yang ditujukan untuk mengatasi masalah pada kesehatan mental di lingkungan Perguruan Tinggi. Pulih memberikan solusi melalui sebuah konseling yang dapat dilakukan secara tatap muka di Perguruan Tinggi mitra Pulih. \n\nSelain itu, Pulih juga menyediakan fitur pendukung seperti Deteksi Tingkat Stress, Journaling, dan juga artikel terkait kesehatan mental. Pulih bekerja sama dengan konselor yang ada di Perguruan Tinggi mitra Pulih"
+                android:layout_marginHorizontal="27dp"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Petunjuk Penggunaan (Konselor)"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Menerima Ajuan Konseling"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="1. Cek ajuan konseling\n2. Masuk ke detail ajuan\n3.Tekan tombol terima jika ingin menyetujui ajuan\n4. Tekan tombol reschedule untuk meminta Konseli membuat jadwal baru"
+                android:layout_marginHorizontal="27dp"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Alur Setelah Konseling"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="1. Cek ajuan konseling\n2. Masuk ke detail ajuan\n3. Tekan tombol selesai"
+                android:layout_marginHorizontal="27dp"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Deteksi Stress"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="1. Isi semua pertanyaan\n2. Submit jawaban\n3. Hasil deteksi stress akan muncul.\n4. Jika tingkat stressnya masuk kategori berat, maka pengguna direkoemndasikan untuk ikut konseling"
+                android:layout_marginHorizontal="27dp"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Journaling"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="1. Tambahkan journal\n2. Pilih ingin menulis journaling pagi atau sore\n3. Isi journal dengan sesuai lalu submit\n4. Maka hasilnya akan tampil di Journaling Page"
+                android:layout_marginHorizontal="27dp"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Artikel"
+                android:layout_marginHorizontal="27dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Tekan artikel maka akan tampil list artikel terkait kesehatan mental."
+                android:layout_marginHorizontal="27dp"
+                android:layout_marginBottom="32dp"/>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

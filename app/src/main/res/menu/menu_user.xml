@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Home"
+        android:id="@+id/user_home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Journaling"
+        android:id="@+id/user_journaling"
+        android:icon="@drawable/ic_journal"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Konseling"
+        android:id="@+id/user_konseling"
+        android:icon="@drawable/ic_konseling"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/user_profile"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="ifRoom"/>
+</menu>
